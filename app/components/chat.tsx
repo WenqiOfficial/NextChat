@@ -630,7 +630,7 @@ export function ChatActions(props: {
         )}
         <ChatAction
           onClick={nextTheme}
-          text={Locale.Chat.InputActions.Theme[theme as Theme]}
+          text={Locale.Chat.InputActions.Theme[theme as keyof typeof Locale.Chat.InputActions.Theme]}
           icon={
             <>
               {theme === Theme.Auto ? (
