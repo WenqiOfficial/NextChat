@@ -9,11 +9,10 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? `😟 对话出现问题。
-       \\ 1️⃣ 如果你想使用自己的 OpenAI API，点击[这里](/#/settings)修改设置 ⚙️`
+       \\ 1️⃣ 如果想使用自己的 Deepseek API，点击[这里](/#/settings)修改设置 ⚙️`
       : `😟 对话出现问题。
-       \ 你可以尝试以下的方案:
-       \ 1️⃣ 如果你正在使用私有部署版本，点击[这里](/#/auth)输入访问密钥 🔑
-       \ 2️⃣ 如果你想使用自己的 OpenAI API，点击[这里](/#/settings)修改设置 ⚙️
+       \ 1️⃣ 点击[这里](/#/auth)输入访问密钥 🔑
+       \ 2️⃣ 如果想使用自己的 Deepseek API，点击[这里](/#/settings)修改设置 ⚙️
        `,
   },
   Auth: {
