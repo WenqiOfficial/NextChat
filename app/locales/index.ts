@@ -1,7 +1,7 @@
 import cn from "./cn";
 import en from "./en";
 // import pt from "./pt";
-// import tw from "./tw";
+import tw from "./tw";
 // import da from "./da";
 // import id from "./id";
 // import fr from "./fr";
@@ -29,7 +29,7 @@ const localStorage = safeLocalStorage();
 const ALL_LANGS = {
   cn,
   en,
-  // tw,
+  tw,
   // pt,
   // da,
   // jp,
@@ -57,7 +57,7 @@ export const ALL_LANG_OPTIONS: Record<Lang, string> = {
   cn: "简体中文",
   en: "English",
   // pt: "Português",
-  // tw: "繁體中文",
+  tw: "繁體中文",
   // da: "Dansk",
   // jp: "日本語",
   // ko: "한국어",
@@ -131,7 +131,7 @@ export function changeLang(lang: Lang) {
 export function getISOLang() {
   const isoLangString: Record<string, string> = {
     cn: "zh-Hans",
-    // tw: "zh-Hant",
+    tw: "zh-Hant",
   };
 
   const lang = getLang();
@@ -143,7 +143,7 @@ export const STT_LANG_MAP: Record<Lang, string> = {
   cn: "zh-CN",
   en: "en-US",
   // pt: "pt-BR",
-  // tw: "zh-TW",
+  tw: "zh-TW",
   // da: "da-DK",
   // jp: "ja-JP",
   // ko: "ko-KR",
