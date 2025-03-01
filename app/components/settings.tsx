@@ -1573,7 +1573,7 @@ export function Settings() {
               }}
             >
               {Object.entries(Theme).map(([k,v]) => (
-                <option value={value} key={k}>
+                <option value={v} key={k}>
                   {k+" "+v}
                 </option>
               ))}
