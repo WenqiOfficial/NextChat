@@ -66,7 +66,7 @@ https://github.com/ChatGPTNextWeb/NextChat/issues/6269
 
 
 
-## 🫣 NextChat Support MCP  ! 
+## 🫣 NextChat Support MCP ! 
 > Before build, please set env ENABLE_MCP=true
 
 <img src="https://github.com/user-attachments/assets/d8851f40-4e36-4335-b1a4-ec1e11488c7e"/>
