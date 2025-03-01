@@ -1572,9 +1572,9 @@ export function Settings() {
                 );
               }}
             >
-              {Object.entries(Theme).map(([key,value]) => (
-                <option value={value} key={value}>
-                  {Locale.Chat.InputActions.Theme[key as keyof typeof Locale.Chat.InputActions.Theme]}
+              {Object.entries(Theme).map(([k,v]) => (
+                <option value={value} key={k}>
+                  {k+" "+v}
                 </option>
               ))}
             </Select>
